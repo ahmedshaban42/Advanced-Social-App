@@ -34,6 +34,11 @@ const routerhandellar=(app,express)=>{
 
 
 
+    app.get('/',async(req,res)=>{res.status(200).json({message:"app work done"})})
+
+
+
+
 
 
 
